@@ -44,25 +44,25 @@ Nav
 *******/
 nav {
     margin-top: 1rem;
-    background-color: white; /* Apply white background */
-    color: white; /* Apply white text color */
-    height: 80px; /* Adjust height as needed */
+    background-color: white; /* Applying white background */
+    color: white; /* Applying white text color */
+    height: 80px; /* Adjusting height as needed */
     text-align: center; /* Center text elements */
   }
   
   .navbar-brand,
   .nav-link {
-    padding: 10px 25px; /* Adjust padding as needed */
+    padding: 10px 25px; /* Adjusting padding as needed */
   }
   
   .nav-link {
-    text-decoration: none; /* Remove underline on hover */
+    text-decoration: none; /* Removing underline on hover */
   }
   
   .navbar-brand {
     color: var(--primary-text);
     font-size: 20px;
-    text-decoration: none; /* Remove underline on hover */
+    text-decoration: none; /* Removing underline on hover */
   }
   
   .nav-link a {
@@ -71,11 +71,11 @@ nav {
   }
   
   
-/* Apply hover effect only to individual nav items */
+/* Applying hover effect only to individual nav items */
 .nav-link:hover,
 .nav-link:focus {
   color: var(--white);
-  background-color: rgb(255, 0, 0); /* Change this to your desired hover color */
+  background-color: rgb(255, 0, 0); 
   padding-left: 10px;
 }
 
